@@ -20,8 +20,6 @@ function changeBackground() {
 		const randomColor2 = Math.floor(Math.random() * 16777215).toString(16);
 		color1.value = "#" + randomColor1;
 		color2.value = "#" + randomColor2;
-		console.log(color1);
-		console.log(color2);
 		changeBackground();
 	}
 
